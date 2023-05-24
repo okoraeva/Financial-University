@@ -1,19 +1,5 @@
-<!----- Conversion time: 1.019 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β17
-* Wed Sep 18 2019 01:22:59 GMT-0700 (PDT)
-* Source doc: https://docs.google.com/open?id=13Bwj-zrzPHWxDyeuZUzSwTNSqtZj9FI-spwD9tnhUTA
------>
+# praktikum_4sem
+Лабораторные работы по дисциплине «Практикум по программированию»
 
 
 ## Простейшие TCP-клиент и эхо-сервер
@@ -132,6 +118,8 @@ print data
 7. На каком уровне модели OSI работают сокеты?
 
 ### Задания для самостоятельного выполнения
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/c1ff0d82-c33f-4ae5-9a79-abf8ab79dff0)
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/d4d25abb-054e-4131-93cd-5336a39eeffb)
 
 1. Проверьте возможность подключения к серверу с локальной, виртуальной и удаленной машины. 
 2. Модифицируйте код сервера таким образом, чтобы он читал строки в цикле до тех пор, пока клиент не введет “exit”. Можно считать, что это команда разрыва соединения со стороны клиента.
@@ -144,5 +132,5 @@ print data
 9. Напишите вспомогательные функции, которые реализуют отправку и принятие текстовых сообщений в сокет. Функция отправки должна дополнять сообщение заголовком фиксированной длины, в котором содержится информация о длине сообщения. Функция принятия должна читать сообщение с учетом заголовка. В дополнении реализуйте преобразование строки в байтовый массив и обратно в этих же функциях. Дополнително оценивается, если эти функции будут реализованы как унаследованное расширение класса socket библиотеки socket.
 10. Дополните код клиента и сервера таким образом, чтобы они могли посылать друг другу множественные сообщения один в ответ на другое.
 11. Напишите многопользовательский чат. Подсказка: используйте сокеты, основанные на протоколе UDP.
-
-<!-- Docs to Markdown version 1.0β17 -->
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/09dbac23-91a7-43fe-9ee0-bd1e7cff13a6)
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/d2c854f7-99d1-42f4-aa8f-41ddcdb2a86e)
