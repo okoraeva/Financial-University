@@ -13,16 +13,26 @@
 ## Задания для выполнения
 Необходимо создать примитивный файловый менеджер. Программа должна работать в определенной папке (рабочей папки менеджера) и позволять пользователю выполнять следующие простые действия в пределах рабочей папки:
 
-1. Создание папки (с указанием имени);![image](https://github.com/okoraeva/Financial-University/assets/56092132/50a7fa58-4089-49a0-ab1f-066cbd8d5b5a)
+1. Создание папки (с указанием имени);
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/50a7fa58-4089-49a0-ab1f-066cbd8d5b5a)
 2. Удаление папки по имени;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/aecb5e12-4a44-4bb1-a357-a6dc6c861b34)
 3. Перемещение между папками (в пределах рабочей папки) - заход в папку по имени, выход на уровень вверх;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/bed6a77d-a892-4fca-8e51-3e001e1607c4)
 4. Создание пустых файлов с указанием имени;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/061dbd56-7d49-48a0-8ebc-da37da584910)
 5. Запись текста в файл;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/bbd1d02d-196f-4052-9942-c999ca420147)
 6. Просмотр содержимого текстового файла;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/5e2d3fcb-f6e2-41bc-a9e4-b64b4eb9327b)
 7. Удаление файлов по имени;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/a9b85217-b7d5-480b-a332-763a016f14e3)
 8. Копирование файлов из одной папки в другую;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/1af060e4-baf7-469d-a21f-0c8be69ff527)
 9. Перемещение файлов;
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/22fbbafa-38eb-4b2a-981c-298bec48079b)
 10. Переименование файлов.
+![image](https://github.com/okoraeva/Financial-University/assets/56092132/0444887c-7859-468c-b8bc-2f6730360b6b)
 
 ## Указания к выполнению
 1. Расположение рабочей папки должно указываться в настройках файлового менеджера. Настройки должны располагаться в отдельном от основного исходного кода файле.
