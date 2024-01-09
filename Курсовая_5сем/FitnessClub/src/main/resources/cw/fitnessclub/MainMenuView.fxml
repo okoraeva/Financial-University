@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: radial-gradient(focus-angle -90.0deg, focus-distance 48.2759% , center 50.0% 50.0%, radius 100.0%, #222222 0.0%, #333333 100.0%);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cw.fitnessclub.ControllerClasses.MainMenuController">
+   <children>
+      <VBox prefHeight="205.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(from 60.6635% 29.3839% to 100.0% 100.0%, #079e4b 0.0%, #2fff00 100.0%);">
+         <children>
+            <BorderPane prefHeight="66.0" prefWidth="900.0">
+               <left>
+                  <HBox prefHeight="66.0" prefWidth="378.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane prefHeight="50.0" prefWidth="42.0" />
+                        <VBox prefHeight="66.0" prefWidth="114.0">
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                              <Button mnemonicParsing="false" onAction="#toAuthorization" prefHeight="39.0" prefWidth="116.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-background-color: #111;" text="Выход" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="20.0" />
+                                 </font>
+                              </Button>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="66.0" prefWidth="234.0" BorderPane.alignment="CENTER" />
+               </center>
+               <right>
+                  <HBox prefHeight="51.0" prefWidth="417.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="loginLabel" alignment="CENTER_RIGHT" prefHeight="51.0" prefWidth="408.0">
+                           <font>
+                              <Font name="Arial Black" size="34.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.06666667014360428" green="0.06666667014360428" blue="0.06666667014360428" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <AnchorPane prefHeight="51.0" prefWidth="65.0" />
+                     </children>
+                  </HBox>
+               </right>
+            </BorderPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" mouseTransparent="true" prefHeight="108.0" prefWidth="932.0" rotate="3.0" style="-fx-font-size: 72;" stylesheets="@style.css" text="FITNESS  CLUB" textAlignment="CENTER">
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.5165876777251184" startX="0.46919431279620855" startY="0.5165876777251185">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.06666667014360428" green="0.06666667014360428" blue="0.06666667014360428" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <AnchorPane prefHeight="63.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(from 45.0237% 54.9763% to 100.0% 100.0%, #020e45 0.0%, #020e45 0.6711%, #00416a 100.0%);">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="227.0" layoutY="2.0" prefHeight="57.0" prefWidth="447.0" text="Главное Меню" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="38.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <BorderPane prefHeight="397.0" prefWidth="900.0">
+         <top>
+            <AnchorPane prefHeight="28.0" prefWidth="900.0" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <BorderPane prefHeight="121.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+               <left>
+                  <AnchorPane prefHeight="140.0" prefWidth="140.0" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <AnchorPane prefHeight="140.0" prefWidth="140.0" BorderPane.alignment="CENTER" />
+               </right>
+               <center>
+                  <BorderPane prefHeight="161.0" prefWidth="620.0" BorderPane.alignment="CENTER">
+                     <right>
+                        <Button mnemonicParsing="false" onAction="#toClients" prefHeight="43.0" prefWidth="260.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #dddddd 0.0%, #ffffff 100.0%);" text="Список клиентов" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                     </right>
+                     <left>
+                        <Button mnemonicParsing="false" onAction="#toEmployees" prefHeight="43.0" prefWidth="260.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #dddddd 0.0%, #ffffff 100.0%);" text="Список сотрудников" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                     </left>
+                  </BorderPane>
+               </center>
+               <bottom>
+                  <BorderPane prefHeight="58.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                 <left>
+                                    <Button mnemonicParsing="false" onAction="#toClasses" prefHeight="43.0" prefWidth="260.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #dddddd 0.0%, #ffffff 100.0%);" text="Групповые занятия" BorderPane.alignment="CENTER">
+                                       <font>
+                                          <Font name="Arial Black" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop>
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="1.0">
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Button>
+                                 </left>
+                                 <right>
+                                    <Button mnemonicParsing="false" onAction="#toEnrollments" prefHeight="43.0" prefWidth="260.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #dddddd 0.0%, #ffffff 100.0%);" text="Записи клиентов" BorderPane.alignment="CENTER">
+                                       <font>
+                                          <Font name="Arial Black" size="18.0" />
+                                       </font>
+                                       <textFill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop>
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="1.0">
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                             </stops>
+                                          </LinearGradient>
+                                       </textFill>
+                                    </Button>
+                                 </right>
+                              </BorderPane>
+                           </center>
+                        </BorderPane>
+                     </center>
+                     <left>
+                        <AnchorPane prefHeight="200.0" prefWidth="140.0" BorderPane.alignment="CENTER" />
+                     </left>
+                     <right>
+                        <AnchorPane prefHeight="200.0" prefWidth="140.0" BorderPane.alignment="CENTER" />
+                     </right>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </center>
+         <bottom>
+            <AnchorPane prefHeight="126.0" prefWidth="900.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</VBox>
